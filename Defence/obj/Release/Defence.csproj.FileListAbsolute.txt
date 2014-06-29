@@ -1,0 +1,5 @@
+C:\Users\76558_000\Desktop\Defence\Defence\bin\Defence.dll
+C:\Users\76558_000\Desktop\Defence\Defence\bin\Defence.pdb
+C:\Users\76558_000\Desktop\Defence\Defence\obj\Release\Defence.dll
+C:\Users\76558_000\Desktop\Defence\Defence\obj\Release\Defence.pdb
+C:\Users\76558_000\Desktop\Defence\Defence\obj\Release\Defence.csprojResolveAssemblyReference.cache

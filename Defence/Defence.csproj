@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5E7489A-BA83-4225-8826-C51EFC097794}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Defence</RootNamespace>
+    <AssemblyName>Defence</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aspx\index.asp" />
+    <Content Include="aspx\ManageStuForm.aspx" />
+    <Content Include="aspx\StuDefault.aspx" />
+    <Content Include="aspx\StuTitleSelectForm3.aspx" />
+    <Content Include="aspx\ManagerDefaultForm.aspx" />
+    <Content Include="aspx\ManageTeacherForm.aspx" />
+    <Content Include="aspx\ManagerAccountForm.aspx" />
+    <Content Include="css\BackgroundStyleSheet.css" />
+    <Content Include="css\GridViewStyleSheet2.css" />
+    <Content Include="css\Select.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="css\TableStyleSheet1.css" />
+    <Content Include="c_topwin.ascx" />
+    <Content Include="c_topwin_tch.ascx" />
+    <Content Include="css\GridViewStyleSheet.css" />
+    <Content Include="aspx\LandForm.aspx" />
+    <Content Include="aspx\OnlineTeachForm.aspx" />
+    <Content Include="aspx\StuAccountManageForm.aspx" />
+    <Content Include="aspx\StuDefenceForm.aspx" />
+    <Content Include="aspx\StuGradeForm.aspx" />
+    <Content Include="aspx\StuPaperForm.aspx" />
+    <Content Include="aspx\StuTitleSelectForm1.aspx" />
+    <Content Include="css\LoginStyleSheet.css" />
+    <Content Include="image\b.jpg" />
+    <Content Include="image\background.png" />
+    <Content Include="image\dot.gif" />
+    <Content Include="image\gate.png" />
+    <Content Include="image\gate1.png" />
+    <Content Include="image\login_bg.gif" />
+    <Content Include="image\menu.jpg" />
+    <Content Include="image\th_bg2.gif" />
+    <Content Include="image\xuanzhe_center.gif" />
+    <Content Include="image\xuanzhe_inco.jpg" />
+    <Content Include="image\xuanzhe_pic.png" />
+    <Content Include="image\学生管理.png" />
+    <Content Include="image\教师管理.png" />
+    <Content Include="js\acol.control.select.js" />
+    <Content Include="js\GridViewScroll.js" />
+    <Content Include="aspx\StuTitleSelectForm2.aspx" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="aspx\StuTitleReportForm.aspx" />
+    <Content Include="c_topwin_manager.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aspx\ManageStuForm.aspx.cs">
+      <DependentUpon>ManageStuForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\ManageStuForm.aspx.designer.cs">
+      <DependentUpon>ManageStuForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuDefault.aspx.cs">
+      <DependentUpon>StuDefault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuDefault.aspx.designer.cs">
+      <DependentUpon>StuDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm3.aspx.cs">
+      <DependentUpon>StuTitleSelectForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm3.aspx.designer.cs">
+      <DependentUpon>StuTitleSelectForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\ManagerDefaultForm.aspx.cs">
+      <DependentUpon>ManagerDefaultForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\ManagerDefaultForm.aspx.designer.cs">
+      <DependentUpon>ManagerDefaultForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\ManageTeacherForm.aspx.cs">
+      <DependentUpon>ManageTeacherForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\ManageTeacherForm.aspx.designer.cs">
+      <DependentUpon>ManageTeacherForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\ManagerAccountForm.aspx.cs">
+      <DependentUpon>ManagerAccountForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\ManagerAccountForm.aspx.designer.cs">
+      <DependentUpon>ManagerAccountForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="c_topwin.ascx.cs">
+      <DependentUpon>c_topwin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="c_topwin.ascx.designer.cs">
+      <DependentUpon>c_topwin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="c_topwin_tch.ascx.cs">
+      <DependentUpon>c_topwin_tch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="c_topwin_tch.ascx.designer.cs">
+      <DependentUpon>c_topwin_tch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\LandForm.aspx.cs">
+      <DependentUpon>LandForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\LandForm.aspx.designer.cs">
+      <DependentUpon>LandForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\OnlineTeachForm.aspx.cs">
+      <DependentUpon>OnlineTeachForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\OnlineTeachForm.aspx.designer.cs">
+      <DependentUpon>OnlineTeachForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cs\SqlHelper.cs" />
+    <Compile Include="aspx\StuAccountManageForm.aspx.cs">
+      <DependentUpon>StuAccountManageForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuAccountManageForm.aspx.designer.cs">
+      <DependentUpon>StuAccountManageForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuDefenceForm.aspx.cs">
+      <DependentUpon>StuDefenceForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuDefenceForm.aspx.designer.cs">
+      <DependentUpon>StuDefenceForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuGradeForm.aspx.cs">
+      <DependentUpon>StuGradeForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuGradeForm.aspx.designer.cs">
+      <DependentUpon>StuGradeForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuPaperForm.aspx.cs">
+      <DependentUpon>StuPaperForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuPaperForm.aspx.designer.cs">
+      <DependentUpon>StuPaperForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm1.aspx.cs">
+      <DependentUpon>StuTitleSelectForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm1.aspx.designer.cs">
+      <DependentUpon>StuTitleSelectForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="aspx\StuTitleReportForm.aspx.cs">
+      <DependentUpon>StuTitleReportForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuTitleReportForm.aspx.designer.cs">
+      <DependentUpon>StuTitleReportForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm2.aspx.cs">
+      <DependentUpon>StuTitleSelectForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aspx\StuTitleSelectForm2.aspx.designer.cs">
+      <DependentUpon>StuTitleSelectForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="c_topwin_manager.ascx.cs">
+      <DependentUpon>c_topwin_manager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="c_topwin_manager.ascx.designer.cs">
+      <DependentUpon>c_topwin_manager.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25363</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2520/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
