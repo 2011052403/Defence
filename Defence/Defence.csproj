@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aspx\index.asp" />
     <Content Include="aspx\ManageStuForm.aspx" />
     <Content Include="aspx\StuDefault.aspx" />
     <Content Include="aspx\StuTitleSelectForm3.aspx" />

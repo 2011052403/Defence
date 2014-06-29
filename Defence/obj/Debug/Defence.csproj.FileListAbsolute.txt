@@ -9,3 +9,6 @@ C:\Users\76558_000\Desktop\Defence\Defence\obj\Debug\Defence.dll
 C:\Users\76558_000\Desktop\Defence\Defence\obj\Debug\Defence.pdb
 C:\Users\76558_000\Desktop\Defence\Defence\obj\Debug\Defence.csprojResolveAssemblyReference.cache
 C:\Users\76558_000\Desktop\Defence\Defence\obj\Debug\Defence.csproj.ResolveComReference.cache
+D:\tt\Defence\obj\Debug\Defence.csprojResolveAssemblyReference.cache
+D:\tt\Defence\obj\Debug\Defence.csproj.ResolveComReference.cache
+D:\tt\Defence\obj\Debug\Defence.dll
